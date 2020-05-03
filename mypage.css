@@ -1,0 +1,386 @@
+
+
+
+
+body{
+    background: #FF8956;}
+
+#header{
+    position: absolute;
+width: 150px;
+height: 33px;
+left: 1269px;
+top: 13px
+}
+#header .btnheader{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+
+font-size: 15px;
+line-height: 35px;
+/* or 175% */
+
+text-align: center;
+
+}
+#header .btnheader a{
+    text-decoration: none;
+}
+
+.text_1{
+    position: absolute;
+width: 303px;
+height: 34px;
+left: 600px;
+top: 108px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+/* or 87% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#box_1{
+    position: absolute;
+    background-color:white;
+    width: 1253px;
+    height: 760px;
+    left: 101px;
+    top: 188px;
+    overflow:auto;
+}
+#box_1 .box_2{
+    position: absolute;
+    width: 1092px;
+    height: 298px;
+    left: 80px;
+    top: 60px;
+    padding:10px;
+    background: #FFFFFF;
+    border: 3px solid #FF8956;
+    box-sizing: border-box;
+}
+
+#box_1 .box_2 .revimg{
+    position: absolute;
+    
+    left: 27px;
+    top: 30px;
+}
+#box_1 .box_2 .starimg{
+    position: absolute;
+    left: 18px;
+    top: 225px;
+}
+#box_1 .box_2 .text_res{
+    
+    font-size:20px;
+    position: absolute;
+    
+    left: 260px;
+    top: 25px;
+}
+
+#box_1 .box_2 .text_day{
+    position: absolute;
+    font-size:20px;
+    left:950px;
+    top:25px;
+}
+
+#box_1 .sujung1{
+    position: absolute;
+left: 1030px;
+top: 373px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+text-align: center;
+}
+
+#box_1 .sakje1{
+    position: absolute;
+
+left: 1100px;
+top: 373px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+text-align: center;
+
+color: #FF0000;
+}
+
+#box_1 .box_3{
+    padding:10px;
+    position: absolute;
+    width: 1092px;
+    height: 298px;
+    left: 80px;
+    top: 410px;
+    
+    background: #FFFFFF;
+    border: 3px solid #FF8956;
+    box-sizing: border-box;
+}
+
+#box_1 .box_3 .revimg{
+    position: absolute;
+
+    left: 27px;
+    top: 30px;
+}
+#box_1 .box_3 .starimg{
+    position: absolute;
+    left: 18px;
+    top: 225px;
+}
+#box_1 .box_3 .text_res{
+    
+    font-size:20px;
+    position: absolute;
+    
+    left: 260px;
+    top: 25px;
+}
+
+#box_1 .box_3 .text_day{
+    position: absolute;
+    font-size:20px;
+    left:950px;
+    top:25px;
+}
+
+
+#box_1 .sujung2{
+    position: absolute;
+left: 953px;
+top: 310px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+text-align: center;
+}
+
+#box_1 .sakje2{
+    position: absolute;
+    
+left: 1022px;
+top: 310px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 23px;
+text-align: center;
+
+color: #FF0000;
+}
+
+
+#text_2{
+    position: absolute;
+left: 610px;
+top: 1025px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+/* or 87% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+
+#box_4{
+    position: absolute;
+    position: absolute;
+width: 726px;
+height: 187px;
+left: 365px;
+top: 1129px;
+
+background: #FFFFFF;
+border-radius: 5px;
+}
+
+#box_4 .img_chingho{
+    position: absolute;
+    border:1px solid black;
+left: 60px;
+top: 25px;
+}
+
+#box_4 .text_chingho_tit{
+    position: absolute;
+width: 436px;
+height: 48px;
+left: 190px;
+top: 25px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+/* or 87% */
+
+text-align: center;
+}
+#box_4 .text_chingho{
+    position: absolute;
+width: 476px;
+height: 71px;
+left: 190px;
+top: 80px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 35px;
+/* or 140% */
+
+text-align: center;
+}
+
+
+#footer .footer_icon{ float:left; border-radius:10%; margin-right:25px;}
+#footer .sns{padding-left:50px;top:-5px;}
+#footerWrap {top:1500px; position: relative; width:100%;clear:both; text-align:center; background: white; border-top:1px solid #ccc; }
+#footer {height:95px; width:1495px; margin:0 auto; padding-top:25px; text-align:left; position:relative;}
+#footer div {float:left; position: relative; height:61px; text-align:left; }
+#footer .copy {position:absolute; padding-left:50px;font-weight:600; bottom:15px; color:#666; font-size:12px;}
+
+
+@media only screen and (max-width : 900px) {
+    
+    #header{
+        position: absolute;
+        left:600px;
+    }
+    .text_1{
+        position: absolute;
+        left:260px;
+    }
+
+    #box1{
+        position: absolute;
+        width:800px;
+        left:50px;
+        overflow: auto;
+    }
+
+    #box_1 .box_2{
+        position: absolute;
+        width:700px;
+    }
+    
+    
+    #box_1 .box_2 .text_res{
+        
+        font-size:16px;
+        position: absolute;
+        
+        left: 230px;
+        top: 55px;
+    }
+    
+    #box_1 .box_2 .text_day{
+        position: absolute;
+        font-size:15px;
+        left:575px;
+       
+    }
+    
+    #box_1 .sujung1{
+    position: absolute;
+    left: 620px;
+    top: 373px;
+    
+    }
+    
+    #box_1 .sakje1{
+        position: absolute;
+    
+    left: 700px;
+    top: 373px;
+    
+    }
+    
+    #box_1 .box_3{
+        
+        position: absolute;
+        width: 700px;
+      
+    }
+    
+   
+    #box_1 .box_3 .text_res{
+        font-size:16px;
+        position: absolute;
+        
+        left: 230px;
+        top: 55px;
+    }
+    
+    #box_1 .box_3 .text_day{
+        position: absolute;
+        font-size:15px;
+        left:575px;
+    }
+    
+    
+    #box_1 .sujung2{
+        position: absolute;
+    left: 535px;
+    top: 310px;
+    }
+    
+    #box_1 .sakje2{
+      position: absolute;
+    
+    left:618px;
+    top: 310px;
+    }
+    
+    
+    #text_2{
+        position: absolute;
+    left: 300px;
+   
+    
+    
+    }
+    
+    
+    #box_4{
+        position: absolute;
+    
+    left: 50px;
+
+    }
+ 
+}
